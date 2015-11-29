@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id= "@+id/title_label_listitemfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_alignParentLeft="true"
+        android:text= "@string/title_label_listitemfrag"/>
+
+    <TextView
+        android:id= "@+id/title_display_listitemfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "titulo"
+        android:layout_margin="4dp"
+        android:layout_toRightOf="@id/title_label_listitemfrag"/>
+    <CheckBox
+        android:id = "@+id/watched_listitemfragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Assistido"
+        android:focusable="false"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:enabled="false"/>
+
+    <TextView
+        android:id = "@+id/date_label_listitemfrag"
+        android:layout_below="@id/title_label_listitemfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date_label_listitemfrag"
+        android:layout_margin="4dp"
+        />
+    <TextView
+        android:id = "@+id/date_display_listitemfrag"
+        android:layout_below="@id/title_label_listitemfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="data"
+        android:layout_margin="4dp"
+        android:layout_toRightOf="@id/date_label_listitemfrag"
+        />
+
+
+</RelativeLayout>

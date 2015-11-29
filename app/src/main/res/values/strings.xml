@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Camdroid</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!--list_item_fragment strings-->
+    <string name = "title_label_listitemfrag">Título:</string>
+    <string name="date_label_listitemfrag">Data de Criação:</string>
+
+    <!--VideoListFragment strings-->
+    <string name="title_videolistfrag">Videos</string>
+
+    <!--Uri test resources-->
+    <string name ="videoUri">http://www.ebookfrenzy.com/android_book/movie.mp4</string>
+
+    <!--Login strings-->
+    <string name ="login_title">Login</string>
+    <string name = "username">Username:</string>
+    <string name ="password">Password:</string>
+    <string name = "loginButton">Login</string>
+    <string name = "accountQuestion">Need a camdroid account?</string>
+    <string name="signMsg">Sign up here</string>
+    <string name = "facebook_app_id">1005852266139946</string>
+
+    <!--Register strings-->
+    <string name = "confirm_password">Confirm Password:</string>
+    <string name= "email">Email:</string>
+    <string name = "submit">Submit</string>
+    <string name = "cancel">Cancel</string>
+
+</resources>

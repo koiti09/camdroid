@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:layout_margin="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+
+    />
+    <EditText
+        android:id = "@+id/login_username"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="4dp"
+        />
+    <TextView
+        android:layout_margin="4dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/password"/>
+    <EditText
+        android:id = "@+id/login_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/login_loginButton"
+        android:layout_marginTop="16dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginButton"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_facebookButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"/>
+    <View
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation= "horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:id = "@+id/login_signMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/accountQuestion"
+            android:layout_marginTop="8dp"
+        />
+        <TextView
+            android:id ="@+id/login_register"
+            android:layout_marginTop="8dp"
+            android:text="@string/signMsg"
+            android:layout_marginLeft="16dp"
+            android:textColor="#496D89"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/login_signMessage"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"/>
+
+</LinearLayout>
