@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id= "@+id/nome_label_listitemfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_alignParentLeft="true"
+        android:text= "@string/camera_name"/>
+
+    <TextView
+        android:id= "@+id/nome_display_listitemfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "nome"
+        android:layout_margin="4dp"
+        android:layout_toRightOf="@id/nome_label_listitemfrag"/>
+
+    <TextView
+        android:id = "@+id/owner_label_listitemfrag"
+        android:layout_below="@id/nome_label_listitemfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/camera_owner"
+        android:layout_margin="4dp"
+        />
+    <TextView
+        android:id = "@+id/owner_display_listitemfrag"
+        android:layout_below="@id/nome_label_listitemfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="owner"
+        android:layout_margin="4dp"
+        android:layout_toRightOf="@id/owner_label_listitemfrag"
+        />
+    <TextView
+        android:id = "@+id/group_display_listitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="grupo"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id = "@+id/group_label_listitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/camera_group"
+        android:layout_toLeftOf="@id/group_display_listitem"/>
+
+
+
+</RelativeLayout>

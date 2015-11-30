@@ -29,4 +29,14 @@
     <string name = "submit">Submit</string>
     <string name = "cancel">Cancel</string>
 
+    <!--Notification strings-->
+    <string name = "new_pictures_title">Camdroid</string>
+
+    <!--CameraList Strings-->
+    <string name = "title_cameraList"> Minhas Cameras</string>
+    <string name ="camera_name">Nome: </string>
+    <string name="camera_owner">Proprietario:</string>
+    <string name = "camera_group">Grupo:</string>
+    <string name ="new_camera">Nova Camera</string>
+
 </resources>

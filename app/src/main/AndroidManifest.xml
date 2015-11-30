@@ -15,6 +15,7 @@
             android:name=".VideoPlayerActivity"
             android:label="@string/app_name" >
         </activity>
+
         <activity
             android:name=".VideoListActivity"
             android:label="@string/app_name" >
@@ -26,16 +27,19 @@
         <activity
             android:name=".SetIP"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CameraListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
         <activity
             android:name=".LoginActivity"
             android:label="@string/login_title" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <meta-data
