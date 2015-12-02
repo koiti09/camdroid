@@ -38,5 +38,9 @@
     <string name="camera_owner">Proprietario:</string>
     <string name = "camera_group">Grupo:</string>
     <string name ="new_camera">Nova Camera</string>
-
+    <string name = "camera_link">link: </string>
+    <string name = "btn_add">Adicionar Nova Camera</string>
+    <string name = "btn_cancelar">Cancelar</string>
+    <string name = "delete_camera"> Deletar Camera</string>
 </resources>
+
